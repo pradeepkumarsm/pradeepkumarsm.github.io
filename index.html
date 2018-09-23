@@ -87,9 +87,7 @@
         <script>
                 "use strict";
                 var images = Array.from(document.getElementsByClassName('addImages'));
-                setTimeout(() => {
-                        console.log('hiiiii');
-                        images.map((container) => {
+                images.map((container) => {
                         container.innerHTML = `<h1>Add Images<h1><img class="imageContainer" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
         <img class="imageContainer" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
         <img class="imageContainer" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
@@ -110,7 +108,6 @@
         <img class="imageContainer" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
         <img class="imageContainer" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />`;
                 });
-                },6000);
         </script>
     </body>
 </html>
